@@ -1,0 +1,13 @@
+currently the login is done & without login still the user can access the home page and see the content -- This is what we do.
+now the Db should be implemented to store the login details when logged in google -- (not done) | even normal login -- (done),
+only google login is done, and no storing in Db -- (true)
+Now when the user logins with the google we are using the sessionProvider to get the username and displaying it, But not when the user does the normal login. We have to implement the auth for user session to keep the user details and then can track his usage and store the prefs in the db when the user changes.
+---
+To implement the home page with a tag selecter page on the top when the user is not logged in and to show the signup button on the side bar.
+
+23/1/25
+Align text in about page.
+Make signup page smaller.
+Align tags page and make them the buttons.
+
+

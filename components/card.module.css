@@ -1,0 +1,56 @@
+.cardBody {
+  height: auto;
+  padding: 10px;
+}
+.cardImgTop {
+  margin-top: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 50px);
+  max-height: 200px;
+  max-width: 350px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.cardImgExp {
+  margin-top: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 50px);
+  max-height: 300px;
+  max-width: 525px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+}
+
+.modalContent {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: calc(100% - 20px);
+  z-index: 10;
+  position: relative;
+}
+.modalContentScrollable {
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.modalContentScrollable::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.modalContentScrollable {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}

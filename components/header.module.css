@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+    border-top-left-radius: 150px;
+}
+
+.navList {
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.leftNav {
+    display: flex;
+    list-style: none;
+}
+
+/* In next js even using the LINK tag it internally renders to <a>, so we mention <a>*/
+
+.leftNav li a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.rightNav {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 0;
+    position: absolute;
+    right: 20px;
+}
+
+.rightNav li button {
+    margin-left: 20px;
+}
+
+.rightNav li button:hover {
+    color: #B8860B;
+}
+
+.rightNav li a {
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+.rightNav li a:hover {
+    color: #B8860B;
+}
+
+.header.scrolled {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.verticalButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.verticalButtons button,
+.verticalButtons a {
+    transform: rotate(-90deg);
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.verticalButtons button:hover,
+.verticalButtons a:hover {
+    color: #B8860B;
+}
+
+.active {
+    color: #B8860B;
+}

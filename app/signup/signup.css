@@ -1,0 +1,176 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.signup-box {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    max-height: 600px;
+    margin-top: 10px;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 12px;
+}
+
+.input-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 6px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.3);
+}
+
+.submit-button {
+    margin-top: 12px;
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: black;
+}
+
+.submit-button:active {
+    background-color: #2b6cb0;
+}
+
+.bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-p {
+    color: black;
+    font-size: 1.1em;
+}
+
+.bottom-p a {
+    color: black;
+    text-decoration: none;
+}
+
+.google-signup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 40px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.google-signup-button:hover {
+    background-color: #c33d2e;
+}
+
+.google-signup-button:active {
+    background-color: #b53426;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.Toastify__toast-container {
+    width: 400px;
+    max-width: 400px;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+.Toastify__toast {
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--success {
+    background-color: white;
+    color: green;
+}
+
+.Toastify__toast--success .Toastify__progress-bar {
+    background: #76ff03;
+}
+
+.Toastify__toast--error {
+    background-color: white;
+    color: #f44336;
+}
+
+.Toastify__toast--error .Toastify__progress-bar {
+    background: #f44336;
+}
+
+.Toastify__toast--warning {
+    background-color: white;
+    color: #ffa726;
+}
+
+.Toastify__toast--warning .Toastify__progress-bar {
+    background: #ffa726;
+}
+
+.Toastify__close-button {
+    color: black;
+    opacity: 0.8;
+}
+
+.Toastify__close-button:hover {
+    opacity: 1;
+}
+
+.Toastify__progress-bar {
+    height: 4px;
+    transition: background 0.3s ease-in-out;
+}
