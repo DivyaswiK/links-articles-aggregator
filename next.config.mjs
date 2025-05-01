@@ -18,6 +18,11 @@ const nextConfig = {
           pathname: "/**",  // Matches any path under the domain
         },
         {
+          protocol: "https",
+          hostname: "python-cnku.onrender.com",
+          pathname: "/**",  // Matches any path under the domain
+        },
+        {
           protocol: "http",
           hostname: "localhost",
           port:"3001",
