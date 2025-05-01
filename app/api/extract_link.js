@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000'; //flask runs at port 5000
+const BASE_URL = 'https://python-1-47sm.onrender.com'; 
 
 export default async function fetchBlog(url) {
     const endpoint = `${BASE_URL}/fetch_blog?url=${encodeURIComponent(url)}`;
