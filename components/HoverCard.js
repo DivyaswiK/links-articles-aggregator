@@ -198,7 +198,7 @@ const HoverCard = ({ src, title, content, link }) => {
         <div className={Styles.cardBody}>
           <Image
             className={Styles.cardImgTop}
-            src={`http://localhost:3001/proxy_image?url=${encodeURIComponent(src)}`}
+            src={`https://python-cnku.onrender.com/proxy_image?url=${encodeURIComponent(src)}`}
             alt="Card img cap"
             width={150}
             height={200}
@@ -309,7 +309,7 @@ const HoverCard = ({ src, title, content, link }) => {
               >
                 <Image
                   className={Styles.cardImgExp}
-                  src={`http://localhost:3001/proxy_image?url=${encodeURIComponent(src)}`}
+                  src={`https://python-cnku.onrender.com/proxy_image?url=${encodeURIComponent(src)}`}
                   alt="Card img cap"
                   width={400}
                   height={500}
